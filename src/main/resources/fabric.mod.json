@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "copyshot",
+  "version": "${version}",
+  "name": "Copyshot",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3",
+  "icon": "assets/copyshot/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.declipsonator.copyshot.Copyshot"
+    ]
+  },
+  "mixins": [
+    "copyshot.mixins.json"
+  ],
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">=1.18"
+  }
+}

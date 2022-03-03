@@ -3,3 +3,5 @@ After taking screenshots, you always have to go to the screenshot folder to send
 
 ### Info
 ⚠️This is a **Fabric** only mod and there are no plans to make a forge version.
+
+[![Example](/copied.png "Example")]

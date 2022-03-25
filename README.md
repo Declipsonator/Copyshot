@@ -1,6 +1,7 @@
 # Copyshot
 
-https://modrinth.com/mod/copyshot
+[Curseforge](https://oke.io/Cf9LrNnz)\
+[Modrinth](https://oke.io/KUyjT)
 
 After taking screenshots, you always have to go to the screenshot folder to send it to someone. Not anymore, with this every screenshot you take gets copied straight to your clipboard.
 

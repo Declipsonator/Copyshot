@@ -28,7 +28,7 @@ public abstract class ScreenshotRecorderMixin {
     private static void onScreenshot(NativeImage image, File file, Consumer<Text> messageReceiver, CallbackInfo ci) {
         MinecraftClient mc = MinecraftClient.getInstance();
         try {
-            File path = new File(mc.runDirectory.getAbsolutePath() + "\\screenshots\\");
+            File path = new File(mc.runDirectory.getAbsolutePath(), "screenshots");
             Optional<Path> lastFilePath = Files.list(path.toPath())
                     .filter(f -> !Files.isDirectory(f))
                     .max(Comparator.comparingLong(f -> f.toFile().lastModified()));
